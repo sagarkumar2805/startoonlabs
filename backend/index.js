@@ -34,9 +34,9 @@ mongoose.connection.on("connected" , ()=>{
 app.use("/api/auth", authRoute); 
 app.use("/api/users",userRoute);
 
-// app.get('/', (req, res) => {
-//     res.send('Server is running');
-// });
+app.get('/', (req, res) => {
+    res.send('Server is running');
+});
 
 
 app.listen(PORT, () => {

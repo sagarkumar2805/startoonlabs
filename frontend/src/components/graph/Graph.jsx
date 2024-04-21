@@ -3,6 +3,7 @@ import Navbar from '../navbar/Navbar';
 import Chart from 'chart.js/auto'; // Import Chart.js
 import axios from 'axios';
 import { BASE_URL } from '../../config';
+import './Graph.css'
 
 const Graph = () => {
 
@@ -70,12 +71,20 @@ const Graph = () => {
   return (
     <div>
       <Navbar /><br />
-      <div>
+      <div className='countContainer'>
         <div className='totalUserCount'>
-          {userData.length}
+          <h3>
+            {userData.length}
+          </h3>
+          <h4>Total Count User</h4>
         </div>
         <div className='totalClickCount'>
-          {totalClicked}
+          <h3>
+            {Math.round(totalClicked)}
+          </h3>
+          <h4>
+            Total Click Count
+          </h4>
         </div>
       </div>
       <div style={{ width: "70%", margin: "auto", height: "80%" }}>

@@ -1,0 +1,70 @@
+/* .auth-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    height: 100vh;
+} */
+.auth{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-left>img{
+    height: 250px;
+
+}
+
+
+.auth-right{
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: column;
+    width: 57%;
+    align-items: center;
+}
+
+.auth-right>form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.auth-right>form>input{
+    padding: 10px;
+    background-color: aliceblue;
+    border: none;
+}
+
+
+
+.buttons-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons-section>button{
+    padding: 10px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.buttons-section>button+button{
+    background-color: red;
+}
+
+
+.gender{
+    display: flex;
+    gap: 10px;
+}

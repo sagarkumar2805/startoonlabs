@@ -1,0 +1,22 @@
+.user-details {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .user-details h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .user-details p {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .user-details p:last-child {
+    margin-bottom: 0;
+  }
+  
